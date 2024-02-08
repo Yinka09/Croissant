@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.my-but {
+  background-color: rgba(69, 23, 29, 0.8);
+  color: white;
+}
+
+.photo-container {
+  margin: 60px 20px;
+}
+
+.imgstyle {
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 576px) {
+  .my-img {
+    display: block;
+    margin: 50px auto 0 auto;
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .my-h1 {
+    text-align: center;
+    padding: 0;
+    word-spacing: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  .my-para {
+    text-align: justify;
+  }
+
+  main {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  .my-div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .my-container {
+    margin-top: 50px;
+  }
+}
